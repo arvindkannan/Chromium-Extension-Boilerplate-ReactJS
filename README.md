@@ -1,4 +1,9 @@
-# [Chrome-React-Extensions Boilerplate](https://github.com/arvindkannan/Chromium-Extension-Boilerplate-ReactJS).
+# [Chromium-Extension-Boilerplate-ReactJS](https://github.com/arvindkannan/Chromium-Extension-Boilerplate-ReactJS).
+
+This boilerplate can be used as template for creating `React.js` based Chromium Based browser extensions.
+
+Final Solution should support any chromium based browser such as Microsoft Edge, Google Chrome.
+
 
 ## Adding The Manifest
 
@@ -28,7 +33,6 @@ Latest versions of Chrome block inline scripts in Chrome extensions. Since creat
 Add to [Manifest.json](public/manifest.json) :"content_security_policy": "script-src 'self' 'sha256-GgRxr...'; object-src 'self'"
 
 Replace `sha256-GgRxr...` with the sha value shown in Error Field -> Chromium browser Developer Mode
-
 
 ## Available Scripts
 
@@ -102,3 +106,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## License
+
+Release under MIT License.
+
+## Contribution:
+
+Contributions are always welcomed unless it violates code of conduct

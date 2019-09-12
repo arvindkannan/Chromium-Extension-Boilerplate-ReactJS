@@ -14,7 +14,7 @@ class SamplePage extends Component {
       <div id="samplePage">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h4>Welcome to ReactJs Based Chromium Browser Extension</h4>
+          <h4>Welcome to ReactJs Based Chromium Browser Extension 🚀</h4>
         </header>
       </div>
     );

@@ -9,6 +9,9 @@ package-lock.json
 
 # testing
 /coverage
+build.crx
+build.pem
+./Pack Extension/build.pem
 
 # production
 /build

@@ -1,4 +1,4 @@
-# Chrome-react-extensions Boilerplate [Chrome-React-Extensions Boilerplate](https://github.com/arvindkannan/react-chromium-extension-boilerplate).
+# [Chrome-React-Extensions Boilerplate](https://github.com/arvindkannan/Chromium-Extension-Boilerplate-ReactJS).
 
 ## Adding The Manifest
 
@@ -25,7 +25,7 @@ If everything goes right, you will have your extension installed in Chrome.
 
 Latest versions of Chrome block inline scripts in Chrome extensions. Since create-react-app build in version 2 creates an inline script to run the app you might stumble upon an error message which is related to Content Security Policy (CSP) in the console. In the error message you will get a sha value which can be added to the manifest.json file to solve the problem.
 
-Add to [Manifest.json](https://www.github.com/arvindkannan/Chrome-React-Extension/public/manifest.json) :"content_security_policy": "script-src 'self' 'sha256-GgRxr...'; object-src 'self'"
+Add to [Manifest.json](public/manifest.json) :"content_security_policy": "script-src 'self' 'sha256-GgRxr...'; object-src 'self'"
 
 Replace `sha256-GgRxr...` with the sha value shown in Error Field -> Chromium browser Developer Mode
 

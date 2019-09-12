@@ -17,13 +17,9 @@ We have the manifest version, name and description which are self explanatory. T
 
 In order to check your new extension, you will have to install it in Edge/Chrome. You can do the following to install it:
 
+In Microsoft Edge, open the extension list by opening a new tab and running the following URL:
 ### `edge://extensions/`
-
-Press the Load unpacked extension… button.
-Browse to the build folder and press the OK button.
-
 In Chrome, open the extension list by opening a new tab and running the following URL:
-
 ### `chrome://extensions/`
 
 Press the Load unpacked extension… button.

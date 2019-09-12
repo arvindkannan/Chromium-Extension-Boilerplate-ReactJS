@@ -13,9 +13,14 @@ Chrome extensions need to have a manifest.json file in their root folder. That m
 
 We have the manifest version, name and description which are self explanatory. The browser_action section tells Chrome that we will have a popup which will run the index.html file. The icons will be used to present the icon in the extension tray and in Chrome extension list. Last but not least, the permissions array will include all the permissions that the extension will need to operate successfully. Currently it is left empty.
 
-## Adding The Extension to Your Chrome
+## Adding The Extension to Your Chromium Based Browser
 
-In order to check your new extension, you will have to install it in Chrome. You can do the following to install it:
+In order to check your new extension, you will have to install it in Edge/Chrome. You can do the following to install it:
+
+### `edge://extensions/`
+
+Press the Load unpacked extension… button.
+Browse to the build folder and press the OK button.
 
 In Chrome, open the extension list by opening a new tab and running the following URL:
 
@@ -24,7 +29,7 @@ In Chrome, open the extension list by opening a new tab and running the followin
 Press the Load unpacked extension… button.
 Browse to the build folder and press the OK button.
 
-If everything goes right, you will have your extension installed in Chrome.
+If everything goes right, you will have your extension installed in Edge/Chrome.
 
 ## Error if any in loading Extension to chromium based browser
 

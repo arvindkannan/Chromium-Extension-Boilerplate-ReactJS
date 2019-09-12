@@ -2,8 +2,8 @@
   "short_name": "Chromium Extension App",
   "name": "Chromium Based Browser Extension App Sample using React",
   "icons": {
-    "16": "favicon.ico",
-    "192": "logo192.png",
+    "32": "logo32.png",
+    "64": "logo64.png",
     "512": "logo512.png"
   },
   "version": "1.0",
